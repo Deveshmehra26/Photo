@@ -15,6 +15,15 @@
                     <view key="view" contentMode="scaleToFill" id="QTd-Uj-1ul">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYb-PA-DMj">
+                                <rect key="frame" x="94" y="167" width="217" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ehx-Mc-sgC"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
@@ -22,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VBo-bT-GXj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="165"/>
+            <point key="canvasLocation" x="826.71755725190837" y="164.78873239436621"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="bGQ-eB-CFs">
