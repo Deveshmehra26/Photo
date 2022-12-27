@@ -13,6 +13,7 @@
 		44468A07295AAAC40000A0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44468A05295AAAC40000A0B1 /* Main.storyboard */; };
 		44468A09295AAAC50000A0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44468A08295AAAC50000A0B1 /* Assets.xcassets */; };
 		44468A0C295AAAC50000A0B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44468A0A295AAAC50000A0B1 /* LaunchScreen.storyboard */; };
+		918FE8B7295BA9A700B34D01 /* PersonalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918FE8B6295BA9A700B34D01 /* PersonalizedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		44468A08295AAAC50000A0B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44468A0B295AAAC50000A0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44468A0D295AAAC50000A0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918FE8B6295BA9A700B34D01 /* PersonalizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		444689FE295AAAC40000A0B1 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
+				918FE8B8295BAA0000B34D01 /* Personalized */,
 				444689FF295AAAC40000A0B1 /* AppDelegate.swift */,
 				44468A01295AAAC40000A0B1 /* SceneDelegate.swift */,
 				44468A03295AAAC40000A0B1 /* HomeViewController.swift */,
@@ -65,6 +68,14 @@
 				44468A0D295AAAC50000A0B1 /* Info.plist */,
 			);
 			path = Photo;
+			sourceTree = "<group>";
+		};
+		918FE8B8295BAA0000B34D01 /* Personalized */ = {
+			isa = PBXGroup;
+			children = (
+				918FE8B6295BA9A700B34D01 /* PersonalizedViewController.swift */,
+			);
+			path = Personalized;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918FE8B7295BA9A700B34D01 /* PersonalizedViewController.swift in Sources */,
 				44468A04295AAAC40000A0B1 /* HomeViewController.swift in Sources */,
 				44468A00295AAAC40000A0B1 /* AppDelegate.swift in Sources */,
 				44468A02295AAAC40000A0B1 /* SceneDelegate.swift in Sources */,
