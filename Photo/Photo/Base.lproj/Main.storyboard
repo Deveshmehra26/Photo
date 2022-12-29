@@ -40,6 +40,23 @@
             </objects>
             <point key="canvasLocation" x="828.24427480916029" y="-511.26760563380282"/>
         </scene>
+        <!--Albums-->
+        <scene sceneID="bIW-X9-hKD">
+            <objects>
+                <viewController id="aGR-vX-OmW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0b-QJ-iX7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3Hz-52-XkH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Albums" image="photo.stack" catalog="system" id="ZKi-M4-d6J"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNL-Qp-r9Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1535" y="567"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="RI9-jf-0fP">
             <objects>
@@ -52,17 +69,19 @@
                     <connections>
                         <segue destination="TBo-LQ-eCU" kind="relationship" relationship="viewControllers" id="cCx-pe-ym4"/>
                         <segue destination="Ndv-wM-fII" kind="relationship" relationship="viewControllers" id="hXc-it-edp"/>
+                        <segue destination="aGR-vX-OmW" kind="relationship" relationship="viewControllers" id="KKr-Mc-04z"/>
+                        <segue destination="7NC-6X-wWL" kind="relationship" relationship="viewControllers" id="6rq-sy-h6F"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-0v-FzM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1001" y="-170"/>
+            <point key="canvasLocation" x="-1166" y="-173"/>
         </scene>
-        <!--Item 1-->
+        <!--All Photos-->
         <scene sceneID="1HI-Dl-rOD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TBo-LQ-eCU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="uzt-81-akN"/>
+                    <tabBarItem key="tabBarItem" title="All Photos" image="photo.on.rectangle" catalog="system" id="uzt-81-akN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hba-k9-Ssv">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -77,11 +96,28 @@
             </objects>
             <point key="canvasLocation" x="-98.473282442748086" y="-511.26760563380282"/>
         </scene>
-        <!--Item 2-->
+        <!--View Controller-->
+        <scene sceneID="ZNy-80-Zea">
+            <objects>
+                <viewController id="7NC-6X-wWL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ahO-e2-R4V">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3Xu-LL-QOb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="y4S-6y-S8m"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KzR-5h-JdW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-779" y="567"/>
+        </scene>
+        <!--Navigation Controller-->
         <scene sceneID="j6n-mL-ZWd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ndv-wM-fII" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="V3x-lp-dxG"/>
+                    <tabBarItem key="tabBarItem" id="V3x-lp-dxG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uSh-PD-bp1">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -98,6 +134,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photo.on.rectangle" catalog="system" width="128" height="98"/>
+        <image name="photo.stack" catalog="system" width="128" height="122"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
